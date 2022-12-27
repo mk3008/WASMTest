@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-     PUBLISH_FOLDER: BlazorApp1/BlazorApp1/bin/Release/net7.0/publish/wwwroot
+     PUBLISH_FOLDER: BlazorApp1/bin/Release/net7.0/publish/wwwroot
 
     name: Build and Deploy Job
     steps:
